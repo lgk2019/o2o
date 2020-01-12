@@ -19,7 +19,15 @@ public class Shop {
 	private String advice;
 	private PersonInfo owner;
 	private Area area;
-	private ShopCategory shopcategory;
+	private ShopCategory shopCategory;
+
+	public ShopCategory getShopCategory() {
+		return shopCategory;
+	}
+
+	public void setShopCategory(ShopCategory shopCategory) {
+		this.shopCategory = shopCategory;
+	}
 
 	public Long getShopId() {
 		return shopId;
@@ -123,13 +131,5 @@ public class Shop {
 
 	public void setArea(Area area) {
 		this.area = area;
-	}
-
-	public ShopCategory getShopcategory() {
-		return shopcategory;
-	}
-
-	public void setShopcategory(ShopCategory shopcategory) {
-		this.shopcategory = shopcategory;
 	}
 }
