@@ -1,13 +1,14 @@
 <web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
-	version="3.1">
+	version="3.1" metadata-complete="true">
 	<display-name>Archetype Created Web Application</display-name>
 	<!-- 配置默认首页 -->
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
-	
-    <!-- 处理url请求 -->
+
+	<!-- 处理url请求 -->
 	<servlet>
 		<servlet-name>spring-dispatcher</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -19,7 +20,7 @@
 
 	<servlet-mapping>
 		<servlet-name>spring-dispatcher</servlet-name>
-		<!-- 默认匹配所有的请求 -->
+		<!-- 匹配规则：默认匹配所有的请求 -->
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 </web-app>

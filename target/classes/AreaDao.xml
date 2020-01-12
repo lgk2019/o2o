@@ -5,9 +5,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 
 <mapper namespace="com.lgk.o2o.dao.AreaDao">
 	<select id="queryArea" resultType="com.lgk.o2o.entity.Area">
-		select area_id as 区域ID,area_name as 区域名,priority as 权重,create_time as
-		创建时间,last_edit_time as 最后一次更改时间
-		from tb_area
-		order by priority desc
+		SELECT area_id,area_name,priority,create_time,last_edit_time
+FROM o2o.tb_area
+ORDER BY priority desc
 	</select>
 </mapper>

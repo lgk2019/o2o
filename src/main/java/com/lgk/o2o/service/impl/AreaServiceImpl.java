@@ -8,14 +8,13 @@ import org.springframework.stereotype.Service;
 import com.lgk.o2o.dao.AreaDao;
 import com.lgk.o2o.entity.Area;
 import com.lgk.o2o.service.AreaService;
+
 @Service
-public class AreaServiceImpl implements AreaService {
-    @Autowired
+public class AreaServiceImpl implements AreaService{  
+	@Autowired
 	private AreaDao areaDao;
-	
 	@Override
 	public List<Area> getAreaList() {
-		
 		return areaDao.queryArea();
 	}
 
