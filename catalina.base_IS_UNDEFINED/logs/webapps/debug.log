@@ -36,3 +36,6 @@
 2020-01-12 21:43:05.937 [main] DEBUG com.lgk.o2o.dao.ShopDao.updateShop - ==>  Preparing: update tb_shop SET shop_name = ?, shop_desc = ?, shop_addr = ?, phone = ?, priority = ?, last_edit_time = ? where shop_id = ? 
 2020-01-12 21:43:06.069 [main] DEBUG com.lgk.o2o.dao.ShopDao.updateShop - ==> Parameters: 测试店铺5(String), 测试描述5(String), 测试地址5(String), 电话(String), 2(Integer), 2020-01-12 21:43:05.192(Timestamp), 5(Long)
 2020-01-12 21:43:06.076 [main] DEBUG com.lgk.o2o.dao.ShopDao.updateShop - <==    Updates: 1
+2020-01-12 23:11:38.732 [main] DEBUG com.lgk.o2o.dao.ShopDao.insertShop - ==>  Preparing: INSERT INTO tb_shop(owner_id,area_id,shop_category_id,shop_name,shop_desc,shop_addr,phone,shop_img,priority,create_time,last_edit_time,enable_status,advice) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?) 
+2020-01-12 23:11:38.834 [main] DEBUG com.lgk.o2o.dao.ShopDao.insertShop - ==> Parameters: 1(Long), 2(Integer), 1(Long), test6(String), test6(String), test6(String), test(String), test(String), 2(Integer), 2020-01-12 23:11:38.121(Timestamp), null, 1(Integer), 审核中(String)
+2020-01-12 23:11:38.841 [main] DEBUG com.lgk.o2o.dao.ShopDao.insertShop - <==    Updates: 1
