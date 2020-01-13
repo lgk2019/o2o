@@ -1,0 +1,6 @@
+2020-01-13 18:49:43.006 [main] ERROR com.lgk.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-01-13 19:00:23.001 [main] ERROR com.lgk.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-01-13 19:03:32.311 [main] ERROR com.lgk.o2o.util.ImageUtil - javax.imageio.IIOException: Can't read input file!
+2020-01-13 21:02:34.398 [main] ERROR com.lgk.o2o.util.ImageUtil - java.io.FileNotFoundException: Could not find file: D:\d\Image\xiaohuangren.jpg
+2020-01-13 21:03:41.952 [main] ERROR com.lgk.o2o.util.ImageUtil - java.io.FileNotFoundException: Could not find file: D:\eclipseWorkspace10\o2o\D\Image\xiaohuangren.jpg
+2020-01-13 21:04:46.700 [main] ERROR com.lgk.o2o.util.ImageUtil - java.io.FileNotFoundException: Could not find file: D:\D\Image\xiaohuangren.jpg
