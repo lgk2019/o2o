@@ -11,6 +11,15 @@
 		<spring.version>5.2.2.RELEASE</spring.version>
 	</properties>
 
+    <!-- 使用阿里镜像地址
+    <repositories>
+      <repository>
+        <id>aliyun</id>
+        <name>aliyun</name>
+        <url>https://maven.aliyun.com/repository/public</url>
+      </repository>
+    </repositories> -->
+    
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -135,6 +144,8 @@
 			<artifactId>thumbnailator</artifactId>
 			<version>0.4.8</version>
 		</dependency>
+		
+		<!-- 验证码 -->
 		<!-- https://mvnrepository.com/artifact/com.github.penggle/kaptcha -->
 		<dependency>
 			<groupId>com.github.penggle</groupId>
